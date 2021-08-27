@@ -1,4 +1,4 @@
-<H2> How to change the Git Bash Prompt to Show * when there are uncommitted changes</H2>
+<H2> How to change the Git Bash prompt to show an * (asterisk) when there are uncommitted changes</H2>
 
 First, open up Git Bash.
 
