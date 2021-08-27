@@ -32,11 +32,11 @@ From there, you want to double-click on the folder named _profile.d_
 
 <hr>
 
-In the profild.d folder, there should be a file named _git-prompt.sh_
 
 ![image](https://user-images.githubusercontent.com/12129459/131063529-e98612d6-8b7e-411e-84a4-86ad7b705d5f.png)
 
-This folder is marked as 'read only' so you can't directly edit this file here (unless you change the permissions for this folder, or move the file to another location, change it there, and then move it back.  In class, we went with the option to move the file, change it, and move it back (for no particular reason).  
+In the profild.d folder, there should be a file named _git-prompt.sh_ that we will want to modify.
+This folder is marked as 'read only' so you can't directly edit this file here (unless you change the permissions for this folder, or move the file to another location, change it there, and then move it back).  In class, we went with the option to move the file, change it, and move it back (for no particular reason).  
 
 Drag the git-prompt.sh file from where it is, onto the desktop.  You may get a warning, just hit the _Continue_ button. 
 
@@ -58,13 +58,13 @@ Save the file (CTRL-S, or take the long way, File > Save)
 
 <hr>
 
-Now drag the new and improved git-prompt.sh file back into the folder where you found it.  That is most likely C:\Program Files\Git\etc\profile.d in you lost track of it.
+Now drag the new and improved git-prompt.sh file back into the folder where you found it.  Unless you changed where Git was installed, is most likely found in C:\Program Files\Git\etc\profile.d
 
-Again, you might get a warning pop-up, just click Continue again, if that comes up.  
+Again, you might get a warning pop-up when you drag the file back into that profile.d folder, but just click Continue again if that comes up.  
 
 <hr>
 
-Almost done.  Close your Git Bash program.  That git-prompt.sh file that we modified runs when Git Bash starts up, so to see the effects, we need to close Git Bash and re-open it. 
+Almost done.  Close your Git Bash program.  That git-prompt.sh file that we modified runs when Git Bash starts up, so to see the changes, we need to close Git Bash and re-open it. 
 
 <hr>
 
