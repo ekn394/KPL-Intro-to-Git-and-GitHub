@@ -22,7 +22,7 @@ If you wanted to be able to launch a good coding text editor from Git Bash, I re
 <p>Then, you can use the word <code> code </code> and then the name of the file you want to open. This will launch Visual Studio Code with that file open. 
 
 ![image](https://user-images.githubusercontent.com/12129459/131731162-9b1be166-72cf-4d64-a1e4-7a7e3410f61a.png)
-
+<hr>
 
 ## Lesson 2
 
@@ -37,3 +37,9 @@ Then, if you navigate to that freshly downloaded folder, there is a file in ther
 ![image](https://user-images.githubusercontent.com/12129459/131723227-7757eb33-f6eb-40da-a75f-f73279e4a0ea.png)
 
 <hr>
+
+## Lesson 3
+
+Q: In number #3 ("Examining the New Repository") the instruction videos, and the quiz has the output saying 'Initial commit'. But that is not what I see when I follow the instructions to the letter. 
+
+A: It looks like since those video lessons were produced, Git has been updated to replace that "Initial commit" message with "No commits yet".  I think this is related to the previous quiz quesion about how a new git repository has zero commits. It might look confusing to see the words "Initial commit" when there have been none.  It is more intuative for it it to say "No commits yet" since the number of commits so far is zero.  The wording in the software is more clear, but the quiz question in #3 is asking you to put in what the message *used* to be, "Initial commit".   
