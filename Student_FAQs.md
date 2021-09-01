@@ -1,4 +1,6 @@
-# Lesson 1
+# Student Questions
+
+## Lesson 1
 
 Q: Using Git Bash on Windows, how do you change directories to the c drive?
 
@@ -13,8 +15,16 @@ Q: Lessons 28-30 seem out of date, where can I find 2021 era instructions for up
 
 A: <a href="https://github.com/ekn394/KPL-Intro-to-Git-and-GitHub/blob/main/upgrade-git-bash-prompt.md" target="_blank"> 2021 Instructions (for Windows)</a>
 <hr>
+Q: The videos show opening files in Sublime Text (version 2) from the command line, but their instructions don't work for me? What should I do?  
 
-# Lesson 2
+A: Don't stress out about which code editor you use. Sublime Text, Atom, Visual Studio Code, Notepad++, or just plain Notepad. 
+If you wanted to be able to launch a good coding text editor from Git Bash, I recommend downloading and installing <a href="https://code.visualstudio.com/" target="_blank"> Visual Studio Code</a>. 
+<p>Then, you can use the word <code> code </code> and then the name of the file you want to open. This will launch Visual Studio Code with that file open. 
+
+![image](https://user-images.githubusercontent.com/12129459/131731162-9b1be166-72cf-4d64-a1e4-7a7e3410f61a.png)
+
+
+## Lesson 2
 
 Q: "Working on #11 ("Finding a bug"), but I can't play the game by clicking on the 'Play the Game Here' link."
 
