@@ -11,7 +11,7 @@ A: You can get back to the prompt by pressing <code> q </code> for 'quit'
 <hr>
 Q: Lessons 28-30 seem out of date, where can I find 2021 era instructions for upgrading the Git Bash prompt? 
 
-A: <a href="https://github.com/ekn394/KPL-Intro-to-Git-and-GitHub/blob/main/upgrade-git-bash-prompt.md"> 2021 Instructions (for Windows)</a>
+A: <a href="https://github.com/ekn394/KPL-Intro-to-Git-and-GitHub/blob/main/upgrade-git-bash-prompt.md" target="_blank"> 2021 Instructions (for Windows)</a>
 <hr>
 
 # Lesson 2
