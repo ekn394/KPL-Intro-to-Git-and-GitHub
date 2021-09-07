@@ -6,23 +6,24 @@ Q: In number #3 ("Examining the New Repository") the instruction videos, and the
 
 A: It looks like since those video lessons were produced, Git has been updated to replace that "Initial commit" message with "No commits yet".  I think this is related to the previous quiz quesion about how a new git repository has zero commits. It might look confusing to see the words "Initial commit" when there have been none.  It is more intuative for it it to say "No commits yet" since the number of commits so far is zero.  The wording in the software is more clear, but the quiz question in #3 is asking you to put in what the message *used* to be, "Initial commit".   
 
+<hr>
 
-Q: In #5 ("Staging Area"), similar to above, the git status output is from a previous version. 
+Q: In #5 ("Staging Area"), similar to above, the git status output is different from the previous version that is used in the videos. 
 
-A: Before you put files in the staging area, git status on your reflections folder might look something like this.
+A: Before you put files in the staging area, if you run the <code>git status</code> comand in your reflections folder, you might look something like this.
 
 ![image](https://user-images.githubusercontent.com/12129459/132280687-ed48d2da-e6f3-4bb8-beb8-fb78d599b9aa.png)
  
-Then after using 
-<code> git add theFileName </code>  to add the files I want to the repository. 
+Then you can use <code> git add theFileName </code>  to add the files to the repository. 
 
 ![image](https://user-images.githubusercontent.com/12129459/132280846-02d7d0e4-c541-407b-a84e-b2843c42ff30.png)
 
- Then, if I run git status again, I should see that there are now 'staged' changes.  Changes that are ready to be committed. 
+ Then, if you run <code> git status </code> again, you should see that there are now 'staged' changes.  These are changes that are ready to be committed. 
 
 ![image](https://user-images.githubusercontent.com/12129459/132280917-ec57a4a3-5f78-4720-ac48-b8779ef9d431.png)
 
 <hr>
+
 Q: #8 The easy way.  Just add <code>-m "And then the message" </code> to add your message to your git commit. 
 
 ![image](https://user-images.githubusercontent.com/12129459/132284849-c66a14fa-8242-4d96-9cb7-694bdef8751f.png)
@@ -35,7 +36,7 @@ Q: #8 The long way.  You are told to try to use <code> git commit </code> which 
 
 Depending on how you installed git, the default text editor is probably "Vim" showed above. Having to use this text editor is not recommended for beginners, or intermediate users.
 
-How the hell do you even get out of here you ask?  Well, it is an intuative as typing the following 5 part spell. 
+How the hell do you even get out of here you ask?  Well, it is as intuative as typing the following 5 part spell. 
 
 You type these characters in order: 
 
