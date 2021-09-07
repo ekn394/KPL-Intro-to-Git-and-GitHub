@@ -4,7 +4,7 @@
 
 Q: In number #3 ("Examining the New Repository") the instruction videos, and the quiz has the output saying 'Initial commit'. But that is not what I see when I follow the instructions to the letter. 
 
-A: It looks like since those video lessons were produced, Git has been updated to replace that "Initial commit" message with "No commits yet".  I think this is related to the previous quiz quesion about how a new git repository has zero commits. It might look confusing to see the words "Initial commit" when there have been none.  It is more intuative for it it to say "No commits yet" since the number of commits so far is zero.  The wording in the software is more clear, but the quiz question in #3 is asking you to put in what the message *used* to be, "Initial commit".   
+A: It looks like since those video lessons were produced, Git has been updated to replace that "Initial commit" message with "No commits yet".  I think this is related to the previous quiz quesion from Lesson 2, about how a new git repository has zero commits. It might look confusing to see the words "Initial commit" when there have been none.  It is more intuative for it it to say "No commits yet" since the number of commits so far is zero.  I think that the present day wording "No commits yet" is more clear, but the quiz question in #3 is asking you to put in what the message *used* to be, which was "Initial commit" at the time when these videos were created.    
 
 <hr>
 
@@ -58,10 +58,10 @@ See how easy Vim is to use?  Yeah it is a nigthmare.  Ok, if you REALLY insist o
 
 ![image](https://user-images.githubusercontent.com/12129459/132283814-90139e7e-9942-4534-ad9e-0627b72b1fa8.png)
 
-If you have Visual Studio Code installed, you can change your default code editor to that by entering the following git command. <br>
+If you have Visual Studio Code installed, you can change your default code editor to that by entering the following git command: <br>
 <code>export GIT_EDITOR="code --wait --new-window" </code>
 
-or if you prefer to use notepad, you can instead enter 
+or if you prefer to use notepad, you can instead enter: 
 
 <code>export GIT_EDITOR="notepad"</code>
 
@@ -70,7 +70,7 @@ or if you prefer to use notepad, you can instead enter
 
 ![image](https://user-images.githubusercontent.com/12129459/132284002-14762709-a51e-4a69-b853-7533acda6e80.png)
 
-Then if you type git commit (with changes that are ready to be commited) you will see your visual studio code open up, with the beginnings of a message. 
+Then if you type <code>git commit</code> (with changes that are ready to be commited) you will see your chosen code editor open up to your commit message (in the example below the code editor is Visual Studio Code). 
 
 <hr>
 
@@ -82,7 +82,7 @@ You just supply a message and save and quit.
 
 ![image](https://user-images.githubusercontent.com/12129459/132284197-163f164c-7052-44d6-8538-0d57bc224597.png)
 
-When you quit that text editor, and go back to your Git Bash, you will see that the git commit has happend using your message. 
+When you quit that text editor, and go back to your Git Bash, you will see that the git commit has occurred using your message. 
 
 <hr>
 
