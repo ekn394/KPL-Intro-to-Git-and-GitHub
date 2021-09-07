@@ -40,17 +40,17 @@ How the hell do you even get out of here you ask?  Well, it is as intuative as t
 
 You type these characters in order: 
 
-<li> ESC (The excape key)</li>
+<li> ESC (The escape key)</li>
 <li> <code> : </code></li>
 <li> <code> x </code></li>
 <li><code> ! </code></li>
 <li> Enter </li>  
 
-There were no spaces in there either. 
+There were no spaces in there either. To summarize those instructions again a different way,
 
 Hit escape
 
-:x!  
+<code>:x!</code>  
 
 Then press Enter.  
 
