@@ -37,3 +37,21 @@ Then, if you navigate to that freshly downloaded folder, there is a file in ther
 ![image](https://user-images.githubusercontent.com/12129459/131723227-7757eb33-f6eb-40da-a75f-f73279e4a0ea.png)
 
 <hr>
+
+Q:  I only see the most recent 4 commits on my screen.  
+
+A: The mouse scroll wheel is decieving. Scrolling down with the mouse wheel shows that you are at the bottom of the Git Bash window.  But Git Bash is currently in a different mode where there is a lot of output text, so the controls have changed to allow you to scroll through it.  In this mode, the up and down arrow keys will scroll up and down by one line at a time.  (Note that under normal circumstances, the 'up' key shows you your most recent command, but here, the up key scrolls up through the text by one line.  To go up or down by entire pages you can use the PAGE DOWN or PAGE UP keys on your keyboard.  
+To exit this mode, press <code>q</code>
+
+<hr>
+
+Q:  On question 12, although we can use git diff to find WHERE the bug occurs, we are asked to determine exactly WHAT is wrong with the code. 
+
+![image](https://user-images.githubusercontent.com/12129459/132396507-748a1f4d-9177-4385-8a9e-2b7a379af4a5.png)
+
+
+A:  This one could be tricky for sure.  In a lot of common programming languages (C, Java, JavaScript) the concept of 'or' is written with two vertical bars like this <code>||</code>.  But if you didn't know that bit of trivia, you could still guess that the correct answer was the one that created 'several "if" statements'.  
+
+![image](https://user-images.githubusercontent.com/12129459/132396677-73771e1d-c0ac-4732-b6f6-50725bd8b3ee.png)
+
+Don't worry if you didn't get that one though. Being able to read JavaScript wasn't/isn't a prerequisite for this Git focused course.  
