@@ -86,3 +86,12 @@ When you quit that text editor, and go back to your Git Bash, you will see that 
 
 <hr>
 
+#11 It isn't explicitly mentioned on this page, but you are supposed to cd your way to the asteroids folder for this question. 
+
+To open game.js in notepad you could type 
+
+<code>notepad game.js</code>
+
+or to open it in Visual Studio Code (if you have it installed) 
+
+<code>code game.js</code>
