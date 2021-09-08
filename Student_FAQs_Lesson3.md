@@ -95,3 +95,39 @@ To open game.js in notepad you could type
 or to open it in Visual Studio Code (if you have it installed) 
 
 <code>code game.js</code>
+
+<hr>
+
+#17 - Just to start with a slightly easier example, I want to see the branch diagram for asteroids that I should have at the start of question 17. 
+
+![image](https://user-images.githubusercontent.com/12129459/132524540-7459a5e7-3397-4727-829b-84d997186fd4.png)
+
+I am asking for <code>git log</code> in <code>--graph</code> mode, and using <code>--oneline</code> makes each git commit show up as one line. 
+
+Where we started with this repo when we used <code>git clone</code> to get it, shows up as commit id 3884eab (origin/master, origin/HEAD) Add color.
+
+Then after that we added a new commit (9af40cc in my case) to the main branch which fixed the bullet delay bug.  
+
+Then we made a new branch called easy-mode and have one commit there where we make the asteroids break into 2 peices instead of 3. 
+
+It asks you to draw a diagram with pen and paper what is going on in the recent commits.  Here is my drawing BEFORE including the new coins branch.  
+
+![image](https://user-images.githubusercontent.com/12129459/132526700-af5c8b70-b9e3-4e1e-8f98-4838b9c8c249.png)
+
+<hr>
+
+#17 Continued.  
+
+Trying to get the history including the coins branch, gives you an error...
+
+![image](https://user-images.githubusercontent.com/12129459/132527786-3487f6c2-c41b-478e-ba5f-fdf2071fdb46.png)
+
+... if you don't FIRST checkout the coins branch.  
+
+<code>git checkout coins</code>
+
+![image](https://user-images.githubusercontent.com/12129459/132529554-eef186b2-51e6-4fec-a064-fb06a2ca24ac.png)
+
+A new diagram for this might look like the following.  Where in the past the coins branch split off the master branch and made 4 commits.  
+
+![image](https://user-images.githubusercontent.com/12129459/132529409-22747593-c80e-4aee-934e-91ea2d3b1a36.png)
