@@ -194,7 +194,7 @@ If you are ready to merge the two branches together ...
 
 ### #24 Optional - Make the Coins Yellow, extra credit assigment. 
 
-First look through the <code>git log</code> to find the commit with the message 'Add color'.  Although it was referring to the ship and asteroids, it will tell us how things are given colour in this game.  
+First look through the <code>git log</code> to look for a clue about where to even start.  I do remember there being a commit message called "Add color" so that sounds like a good place to start.  Use <code>git log</code> to find the commit with the message 'Add color'.  Although it was referring to the ship and asteroids, it will tell us how things are given colour in this game which will be helpful..  
 
 ![image](https://user-images.githubusercontent.com/12129459/132584480-0d4d9ef1-ec56-4fc0-8932-053ba5868c5e.png)
 
