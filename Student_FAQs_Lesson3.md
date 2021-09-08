@@ -26,22 +26,24 @@ Then you can use <code> git add theFileName </code>  to add the files to the rep
 ![image](https://user-images.githubusercontent.com/12129459/132280917-ec57a4a3-5f78-4720-ac48-b8779ef9d431.png)
 
 <hr>
-### #8
 
-Q: #8 The easy way.  Just add <code>-m "And then the message" </code> to add your message to your git commit. 
+### #8 The easy way. 
+
+Just add <code>-m "And then the message" </code> to add your message to your git commit. 
 
 ![image](https://user-images.githubusercontent.com/12129459/132284849-c66a14fa-8242-4d96-9cb7-694bdef8751f.png)
 
 <hr>
 
-### #8
-Q: #8 The long way.  You are told to try to use <code> git commit </code> which will launch SOME text editor to give us a place to write our commit message.  I find myself in a screen that looks like ...
+### #8 The long way.
+
+You are told to try to use <code>git commit</code> which will launch SOME text editor to give us a place to write our commit message.  I find myself in a screen that looks like ...
 
 ![image](https://user-images.githubusercontent.com/12129459/132283005-33419a34-c70a-420f-bfb8-2e39cf454510.png)
 
 Depending on how you installed git, the default text editor is probably "Vim" showed above. Having to use this text editor is not recommended for beginners, or intermediate users.
 
-How the hell do you even get out of here you ask?  Well, it is as intuative as typing the following 5 part spell. 
+How the hell do you even get out of here you ask?  Well, it is as intuative as typing the following 5 instructions in a row. 
 
 You type these characters in order: 
 
@@ -51,7 +53,7 @@ You type these characters in order:
 <li><code> ! </code></li>
 <li> Enter </li>  
 
-There were no spaces in there either. To summarize those instructions again a different way,
+There were no spaces in there either and you get no visual feedback until you are finished, so you don't know if it is working or not until you press Enter and hope for the best. To summarize those instructions again a different way,
 
 Hit escape
 
@@ -59,7 +61,7 @@ Hit escape
 
 Then press Enter.  
 
-See how easy Vim is to use?  Yeah it is a nigthmare.  Ok, if you REALLY insist on opening up a code editor just to write your commit messages you can set the default code editor to something more user friendly. 
+See how easy Vim is to use?  Yeah, it is a nigthmare.  Ok, if you wanted to open up a code editor to write your commit messages, you can set the default code editor to something more user friendly. 
 
 ![image](https://user-images.githubusercontent.com/12129459/132283814-90139e7e-9942-4534-ad9e-0627b72b1fa8.png)
 
