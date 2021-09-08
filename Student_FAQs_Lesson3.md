@@ -194,29 +194,27 @@ If you are ready to merge the two branches together ...
 
 ### #24 Optional - Make the Coins Yellow, extra credit assigment. 
 
-First look through the <code>git log</code> to look for a clue about where to even start.  I do remember there being a commit message called "Add color" so that sounds like a good place to start.  Use <code>git log</code> to find the commit with the message 'Add color'.  Although it was referring to the ship and asteroids, it will tell us how things are given colour in this game which will be helpful..  
+First look through the <code>git log</code> to look for a clue about where to even start.  I do remember there being a commit message called "Add color" so that sounds like a good place to start.  Use <code>git log</code> to find the commit with the message 'Add color'.  Although it was referring to the ship and asteroids, it will tell us how things are given colour in this game which will be helpful.
 
 ![image](https://user-images.githubusercontent.com/12129459/132584480-0d4d9ef1-ec56-4fc0-8932-053ba5868c5e.png)
 
 Ok, so commit 3884ea adds color to the game.  
 
-To see what was added in that commit, we can use <code>git show 3884ea</code> to 'show' the differences between that commit and it's parent.  (Which commit is the parent is less clear now since we have merged two branches together.  At this point <code>git show</code> will give us the information that we need. 
+To see what was added in that commit, we can use <code>git show 3884ea</code> to 'show' the differences between that commit and it's parent.  Which commit *is* the parent of this commit is less clear now, since we have merged two branches together.  At this point <code>git show</code> will give us the information that we need. 
 
 ![image](https://user-images.githubusercontent.com/12129459/132585104-b9b3a2ad-ab31-4b28-b5d9-916f9a872847.png)
 
-It looks like there is a line of code that looks like  **Ship = function()...** and just below that there are the properties: <br>
+There is a line of code that looks like  **Ship = function()**... and just below that there are the properties: <br>
 <code>this.color = 'navy'</code><br>
 <code>this.solid = true;</code><br>
 
-And a little later there is aline that looks like **Asteroid = function()...** with the properties: <br>
+And a little later there is a line that looks like **Asteroid = function()**... with the properties: <br>
 <code>this.color = 'lightgrey'</code><br>
 <code>this.solid = true;</code><br>
 
-So... in our most recent copy of that file *game.js* we should probably look for something called **Coins = function()*** and then add the properties:<br>
-<code>this.color = 'orange'</code><br>
+So... in our most recent copy of that file *game.js* we should probably look for something called **Coins = function()***... and then add the properties:<br>
+<code>this.color = 'yellow'</code><br>
 <code>this.solid = true;</code><br>
-
-*I found that orange is much easier to see than yellow*.
 
 <hr>
 
@@ -224,7 +222,8 @@ That's the game plan anyways, next let's open up game.js and see if we can find 
 
 <code>code game.js</code><br>
 
-Searching for the word coin (CTRL-F to search).  I see something called Coin = function () and I will add the appropriate lines.  
+Searching for the word coin (CTRL-F to search), I see that there is a line that contains ***Coin = function()*** and I will add the appropriate lines below that. 
 
 ![image](https://user-images.githubusercontent.com/12129459/132585912-f2ec6791-9570-4999-bdc3-bd075b6321d9.png)
 
+*I found that orange is much easier to see than yellow*.
