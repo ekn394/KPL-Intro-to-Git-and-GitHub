@@ -77,7 +77,7 @@ or if you prefer to use notepad, you can instead enter:
 
 ![image](https://user-images.githubusercontent.com/12129459/132284002-14762709-a51e-4a69-b853-7533acda6e80.png)
 
-Then if you type <code>git commit</code> (with changes that are ready to be commited) you will see your chosen code editor open up to your commit message (in the example below the code editor is Visual Studio Code). 
+Then if you type <code>git commit</code> (with changes that are ready to be commited) you will see your chosen code editor open up to your commit message (in this example the code editor is Visual Studio Code). 
 
 <hr>
 
