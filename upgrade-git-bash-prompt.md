@@ -58,7 +58,7 @@ Save the file (CTRL-S, or take the long way, File > Save)
 
 <hr>
 
-Now drag the new and improved git-prompt.sh file back into the folder where you found it.  Unless you changed where Git was installed, if is most likely found in C:\Program Files\Git\etc\profile.d
+Now drag the new and improved git-prompt.sh file back into the folder where you found it.  Unless you changed where Git was installed, it is most likely found in C:\Program Files\Git\etc\profile.d
 
 Again, you might get a warning pop-up when you drag the file back into that profile.d folder, but just click Continue again if that comes up.  
 
