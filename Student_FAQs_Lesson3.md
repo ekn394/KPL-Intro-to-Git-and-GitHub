@@ -227,3 +227,64 @@ Searching for the word coin (CTRL-F to search), I see that there is a line that 
 ![image](https://user-images.githubusercontent.com/12129459/132585912-f2ec6791-9570-4999-bdc3-bd075b6321d9.png)
 
 *I found that orange is much easier to see than yellow*.
+
+### #29 Resolving Merge Conflicts
+
+Q: After checking out the easy-mode branch,  <code>git checkout easy-mode</code>, then then trying to merge in the master branch.  <br>
+<code>git merge master easy-mode</code><br>
+It does give me a merge conflict error (just as the video predicts), how do I get to the place where it outlines the problems?  
+
+A: When you got the merge error, it said that the problem came from the file called *game.js* 
+
+![image](https://user-images.githubusercontent.com/12129459/132721263-9c2a84ab-0f55-4077-9e06-7b55851c231e.png)
+
+So you will want to open up that file.<br>
+
+<code>code game.js</code><br>
+
+It will now have the problem marked off with a series of <<<<<<<<  and >>>>>>>>>> markers
+
+![image](https://user-images.githubusercontent.com/12129459/132721477-e24e04b5-ea53-4c35-b0b6-4384927f4c1a.png)
+
+![image](https://user-images.githubusercontent.com/12129459/132722522-3a2eb409-700a-4e8a-8a02-f6d6665b0473.png)
+
+<hr>
+
+Delete the parts you don't want to keep (including the >>>>> and <<<<< and ||||||| lines.  
+
+I want to keep the master version of the problem where everything was collapsed down into that one line of code <code>this.breakIntoFragments90;</code>
+
+which refers to a 'function' that handles that task.  Then we change that function to break into 2 peices instead of 3.  And we should be good to go.  Save and quit that text editor.  
+
+![image](https://user-images.githubusercontent.com/12129459/132723394-b3669bd0-73a1-42d4-bd49-3a5aaac816d4.png)
+
+<hr>
+
+Notable that my Git Bash prompt tells me that I am in the middle of a Merge.  (Which I have to stage and commit to finalize).  
+
+![image](https://user-images.githubusercontent.com/12129459/132723650-cd2b0224-76ce-4228-9574-36a31a6ad752.png)
+
+<hr>
+
+<code>git add game.js</code><br>
+
+### #30 Committing the Conflict Resolution
+
+Running git commit, it you have been following allong so far SHOULD open a text editor with a suitable commit message already supplied for you. 
+
+<code>git commit</code><br>
+
+![image](https://user-images.githubusercontent.com/12129459/132724096-1eb64cfd-abab-4034-8783-bdd02a546cc4.png)<hr>
+After that is complete my Git Bash prompt no longer shows uncommitted changes (with the asterisk) or that there is a MERGE in progress.  Everything on the easy-mode branch looks on the up and up.  We can test that by running the game and seeing if it is in easy mode (asteroids split into 2's not 3's).  AND seeing if there are coins in the game (from the master branch).  <br>
+
+<code>start index.html</code>
+
+### #30 Quiz 
+
+The output of Git Log no longer shows that there was a problem merging.  
+
+![image](https://user-images.githubusercontent.com/12129459/132725439-72ddaf46-60f6-4fff-a892-297c1763e5ef.png)
+
+So don't worry if your answer doesn't match theirs. 
+
+
