@@ -232,12 +232,13 @@ Searching for the word coin (CTRL-F to search), I see that there is a line that 
 
 ### #29 Resolving Merge Conflicts
 
-Q: After checking out the easy-mode branch,  <code>git checkout easy-mode</code>, we are then trying to merge in the master branch.  For clarification, we are trying to bring the updates on the master branch (coins that are now colored yellow) into the easy-mode branch (where astroids break into fewer peices).  **We are updating easy-mode with yellow coins, we are NOT updating the master branch with easy mode (asteroids that break in half).<br>
+After checking out the easy-mode branch,  <code>git checkout easy-mode</code>, we are then trying to merge in the master branch.  For clarification, we are trying to bring the updates on the master branch (coins that are now colored yellow) into the easy-mode branch (where astroids break into fewer peices).  **We are updating the easy-mode branch to have yellow coins, we are NOT updating the master branch be easier (asteroids that break in half)**.<br>
 
 <code>git merge master easy-mode</code><br>
-This does give me a merge conflict error (just as the video predicts), how do I get to the place where it outlines the problems?  
+This does give me a merge conflict error (just as the video predicts). <br>
+Q: How do I get to the place where it outlines the problems?<br>
 
-A: When you got the merge error, it said that the problem came from the file called *game.js* 
+A: When you got the merge error, it said that the problem came from the file called *game.js* <hr>
 
 ![image](https://user-images.githubusercontent.com/12129459/132721263-9c2a84ab-0f55-4077-9e06-7b55851c231e.png)
 
@@ -286,13 +287,15 @@ If you have been following along so far, running git commit SHOULD open a text e
 
 ![image](https://user-images.githubusercontent.com/12129459/132724096-1eb64cfd-abab-4034-8783-bdd02a546cc4.png)<br>
 <hr>
-After that is complete my Git Bash prompt no longer shows uncommitted changes (with the asterisk) or that there is a MERGE in progress.  Everything on the easy-mode branch looks on the up and up.  We can test that by running the game and seeing if it is in easy mode (asteroids split into 2's not 3's)  AND seeing if there are coins in the game (from the master branch).  <br>
+After that is complete, my Git Bash prompt no longer shows uncommitted changes (with the asterisk) or that there is a MERGE in progress.  Everything on the easy-mode branch looks good.  We can test that out by running the game and seeing if it is in-fact in easy mode (asteroids split into 2's not 3's) AND seeing if there are coins in the game (from the master branch).  <br>
+
+To start the game from your asteroids folder you can type<br>
 
 <code>start index.html</code>
 
 ### #30 Quiz 
 
-The output of Git Log no longer shows that there was a problem merging.  
+The output of <code>git log</code> no longer shows that there was a problem merging.  
 
 ![image](https://user-images.githubusercontent.com/12129459/132725439-72ddaf46-60f6-4fff-a892-297c1763e5ef.png)
 
