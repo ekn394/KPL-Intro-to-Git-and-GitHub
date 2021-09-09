@@ -93,7 +93,9 @@ When you quit that text editor, and go back to your Git Bash, you will see that 
 
 <hr>
 
-#11 It isn't explicitly mentioned on this page, but you are supposed to cd your way to the asteroids folder for this question. 
+### #11 
+
+#11 - It isn't explicitly mentioned on this page, but you are supposed to cd your way to the asteroids folder for this question. 
 
 To open game.js in notepad you could type 
 
@@ -173,7 +175,7 @@ You can double check that you are ON the master branch (it should have an asteri
 
 ### Side track: Do you have a code editor setup for your Git Bash (covered in #8 but repeating here)
 
-When we merge the two branches together we will asked to make a commit message, so this might be a good time to make sure that your git program will open a text editor that you are comfortable with.  
+When we merge the two branches together we will be asked to make a commit message, so before we do that, this is probably a good time to make sure that your git program will open a text editor that you are comfortable with.  
 
 If you have Visual Studio Code installed, you can change your default code editor to that by entering the following git command: <br>
 <code>export GIT_EDITOR="code --wait --new-window" </code>
@@ -230,9 +232,10 @@ Searching for the word coin (CTRL-F to search), I see that there is a line that 
 
 ### #29 Resolving Merge Conflicts
 
-Q: After checking out the easy-mode branch,  <code>git checkout easy-mode</code>, then then trying to merge in the master branch.  <br>
+Q: After checking out the easy-mode branch,  <code>git checkout easy-mode</code>, we are then trying to merge in the master branch.  For clarification, we are trying to bring the updates on the master branch (coins that are now colored yellow) into the easy-mode branch (where astroids break into fewer peices).  **We are updating easy-mode with yellow coins, we are NOT updating the master branch with easy mode (asteroids that break in half).<br>
+
 <code>git merge master easy-mode</code><br>
-It does give me a merge conflict error (just as the video predicts), how do I get to the place where it outlines the problems?  
+This does give me a merge conflict error (just as the video predicts), how do I get to the place where it outlines the problems?  
 
 A: When you got the merge error, it said that the problem came from the file called *game.js* 
 
@@ -252,12 +255,15 @@ It will now have the problem marked off with a series of <<<<<<<<  and >>>>>>>>>
 
 Delete the parts you don't want to keep (including the >>>>> and <<<<< and ||||||| lines.  
 
-I want to keep the master version of the problem where everything was collapsed down into that one line of code <code>this.breakIntoFragments90;</code>
+I want to keep the master version of the problem where everything was collapsed down into that one line of code <code>this.breakIntoFragments();</code>
 
-which refers to a 'function' that handles that task.  Then we change that function to break into 2 peices instead of 3.  And we should be good to go.  Save and quit that text editor.  
+which refers to a 'function' called breakIntoFragments() that handles that task.  Then we change that function to break asteroids into 2 peices instead of 3.  And we should be good to go.  
 
 ![image](https://user-images.githubusercontent.com/12129459/132723394-b3669bd0-73a1-42d4-bd49-3a5aaac816d4.png)
 
+This is what mine looks like after deleting the conflicting sections. <br>
+
+Save and quit that text editor.  <br>
 <hr>
 
 Notable that my Git Bash prompt tells me that I am in the middle of a Merge.  (Which I have to stage and commit to finalize).  
@@ -266,16 +272,21 @@ Notable that my Git Bash prompt tells me that I am in the middle of a Merge.  (W
 
 <hr>
 
+I will then **stage my new and improved game.js file** with the conflicts (and conflict markers) deleted. 
+
 <code>git add game.js</code><br>
+
+It is now ready to commit. 
 
 ### #30 Committing the Conflict Resolution
 
-Running git commit, it you have been following allong so far SHOULD open a text editor with a suitable commit message already supplied for you. 
+If you have been following along so far, running git commit SHOULD open a text editor with a suitable commit message already supplied for you. 
 
 <code>git commit</code><br>
 
-![image](https://user-images.githubusercontent.com/12129459/132724096-1eb64cfd-abab-4034-8783-bdd02a546cc4.png)<hr>
-After that is complete my Git Bash prompt no longer shows uncommitted changes (with the asterisk) or that there is a MERGE in progress.  Everything on the easy-mode branch looks on the up and up.  We can test that by running the game and seeing if it is in easy mode (asteroids split into 2's not 3's).  AND seeing if there are coins in the game (from the master branch).  <br>
+![image](https://user-images.githubusercontent.com/12129459/132724096-1eb64cfd-abab-4034-8783-bdd02a546cc4.png)<br>
+<hr>
+After that is complete my Git Bash prompt no longer shows uncommitted changes (with the asterisk) or that there is a MERGE in progress.  Everything on the easy-mode branch looks on the up and up.  We can test that by running the game and seeing if it is in easy mode (asteroids split into 2's not 3's)  AND seeing if there are coins in the game (from the master branch).  <br>
 
 <code>start index.html</code>
 
