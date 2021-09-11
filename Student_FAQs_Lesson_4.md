@@ -153,9 +153,8 @@ Then if you go look at your recipes repo on GitHub, you SHOULD see that one of t
 
 <hr>
   
-
-## #19 Updating Local Copies
-
+## #18 Simulate Sarah's Changes
+  
 A lot of things where thrown at you in #19 and I think another visualization would be helpful. 
 
 <li>I followed the instructions and updated one of the spices in the chili recipe and committed it locally, but, as instructed, <em>have NOT</em> pushed that change to GitHub.  </li>
