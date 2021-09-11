@@ -38,5 +38,26 @@ In the video they show adding a file to GitHub by pressing a '+' plus sign.
 
 The option to create a new file is now found under a drop down menu labeled "**Add file**".
 
+<hr>
+
+### #12 Forking the Recipes Repository
 
 
+![image](https://user-images.githubusercontent.com/12129459/132950367-fabae6fd-b157-4801-8af9-c99540c15471.png)
+
+
+In the video they show the url for cloning the repository on a right hand side menu.  
+
+<hr>
+
+![image](https://user-images.githubusercontent.com/12129459/132950481-ec9ecc23-dff0-49f6-816e-4c25898ac32b.png)
+
+This right hand side menu has changed and no longer shows the url for the repository.  There is a gear icon that will open up a popup that shows the url for the repository. 
+
+<hr>
+
+![image](https://user-images.githubusercontent.com/12129459/132950520-3ac1be41-a295-45df-9750-566ddaabbda6.png)
+
+However, I think it is even easier to just copy the address from the address bar at the top of your web browser. 
+
+<hr>
