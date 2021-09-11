@@ -106,8 +106,47 @@ We haven't got to this yet (this will be covered starting in #15, where you will
 
 <hr>
 
+## #18 Simulate Sarah's Changes
+
+![image](https://user-images.githubusercontent.com/12129459/132954243-a296c849-66c4-462d-8909-cdac9cc013cf.png)
+
+Right click, Save link as... on the sarah_changes.sh
+
+<hr>
+
+That file saved to my Downloads folder.  <br>
+
+![image](https://user-images.githubusercontent.com/12129459/132954411-69f56923-d5a5-42b1-bb6e-e1afd1f01184.png)
 
 
+<hr> 
 
+A shortcut to getting Git Bash to that location could be to right click anywhere in that folder (not in the icon, but anywhere else in the folder) and select Git Bash Here from the drop down menu. 
 
+![image](https://user-images.githubusercontent.com/12129459/132954465-a42ac9d8-e148-4964-b906-4be56cab9aae.png)
 
+<hr>
+
+This will bring your Git Bash program to the proper spot.  
+
+![image](https://user-images.githubusercontent.com/12129459/132954507-c7ba2987-254e-4b32-acbe-6a14cb676f14.png)
+
+<hr>
+
+Then substituting in your recipe url address on the end...
+
+<code>bash sarah_changes.sh https://github.com/ekn394/recipes
+
+![image](https://user-images.githubusercontent.com/12129459/132954772-90f8ce47-9664-472c-ad8b-d6116d9fbc17.png)
+
+If you get an error that says "sarah_changes.sh: Did not receive enough arguments.  Expected exactly 1." 
+
+That means you didn't include the url address to YOUR github recipes repository. 
+  
+<hr>
+  
+Then if you go look at your GitHub repo for your recipes you SHOULD see that one of the instructors, has made an update to the **GitHub version** of your recipes repo.  
+
+![image](https://user-images.githubusercontent.com/12129459/132954692-3111c1e6-8d88-4931-810c-504563537501.png)
+
+!!! Awesome, (a bot equivalent of) Sarah from Udacity made a commit to one of my GitHub repos!
