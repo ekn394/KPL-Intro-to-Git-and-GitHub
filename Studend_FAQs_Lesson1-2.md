@@ -11,11 +11,11 @@ Q: After using <code> git log </code>, I have pages and pages of information to 
 
 A: You can get back to the prompt by pressing <code> q </code> for 'quit'
 <hr>
-Q: Lessons 28-30 seem out of date, where can I find 2021 era instructions for upgrading the Git Bash prompt? 
+Q: Lessons 28-30 seem out of date. Where can I find 2021 era instructions for upgrading the Git Bash prompt? 
 
 A: <a href="https://github.com/ekn394/KPL-Intro-to-Git-and-GitHub/blob/main/upgrade-git-bash-prompt.md" target="_blank"> 2021 Instructions (for Windows)</a>
 <hr>
-Q: The videos show opening files in Sublime Text (version 2) from the command line, but their instructions don't work for me? What should I do?  
+Q: The videos show opening files in Sublime Text (version 2) from the command line, but their instructions don't work for me. What should I do?  
 
 A: Don't stress out about which code editor you use. Sublime Text, Atom, Visual Studio Code, Notepad++, or just plain Notepad. 
 If you wanted to be able to launch a good coding text editor from Git Bash, I recommend downloading and installing <a href="https://code.visualstudio.com/" target="_blank"> Visual Studio Code</a>. 
@@ -36,12 +36,16 @@ Then, if you navigate to that freshly downloaded folder, there is a file in ther
 <br>
 ![image](https://user-images.githubusercontent.com/12129459/131723227-7757eb33-f6eb-40da-a75f-f73279e4a0ea.png)
 
+or... from Git Bash, you could type 
+
+<code>start index.htm</code>
+
 <hr>
 
 Q:  I only see the most recent 4 commits on my screen.  
 
-A: The mouse scroll wheel is decieving. Scrolling down with the mouse wheel shows that you are at the bottom of the Git Bash window.  But Git Bash is currently in a different mode where there is a lot of output text, so the controls have changed to allow you to scroll through it.  In this mode, the up and down arrow keys will scroll up and down by one line at a time.  (Note that under normal circumstances, the 'up' key shows you your most recent command, but here, the up key scrolls up through the text by one line.  To go up or down by entire pages you can use the PAGE DOWN or PAGE UP keys on your keyboard.  
-To exit this mode, press <code>q</code>
+A: The scroll wheel on your mouse can be deceiving when using unix era software like our Git Bash command line.  Scrolling down with the mouse wheel shows that you are at the bottom of the Git Bash window.  But Git Bash is currently in a different 'mode' where it is trying its best to show you a lot of output text.  In this mode the controls have changed to allow you to scroll through it with the keyboard.  In this mode, the up and down arrow keys will scroll up and down by one line at a time.  Note that under normal circumstances, the 'up' key shows you your most recent command, but here, the up key scrolls up through the text by one line.  To go up or down by entire pages you can use the PAGE DOWN or PAGE UP keys on your keyboard.  
+**To exit this mode, press <code>q</code>**
 
 <hr>
 
