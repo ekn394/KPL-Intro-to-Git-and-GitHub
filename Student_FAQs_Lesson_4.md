@@ -164,7 +164,9 @@ A lot of things where thrown at you in #19 and I think another visualization wou
 
 <li>I THEN followed the instructions to FETCH, not pull, FETCH the updates from GitHub.  This means that the 'origin/master' branch on my local computer has been updated with any new GitHub changes (removed cumin).  That 'origin/master' branch has not yet been merged with my local 'master' branch where the most recent change was me updating (in my case) salt to seasoning salt (the exact change isn't important).  </li>
   
-If I use git log to see what the most recent change to the master branch (that I am on) is, I will see that the most recent update (to that branch) is me updating the spice instructions as per #16.  <br>
+<hr>
+  
+If I am on the master branch (your prompt should say master at the end) and use git log to see what the most recent change was, I will see that the most recent commit (to that branch) is me updating the spice instructions as per #16.  <br>
 
 ![image](https://user-images.githubusercontent.com/12129459/132956335-4724856d-2ba7-43b6-833d-268c6c114356.png)<br>
 
