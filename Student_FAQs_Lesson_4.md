@@ -64,7 +64,7 @@ However, I think it is even easier to just copy the address from the address bar
 
 <hr>
 
-## #13 Push Changes to the Recipes Repository
+## #13 Adding a new recipes to the repository
 
 ![image](https://user-images.githubusercontent.com/12129459/132951519-cd353c83-2bef-4008-8ac3-631c0d9b9a19.png)
 
@@ -95,5 +95,19 @@ That looks fine, I will add my new recipe to the staging area with <code>git add
 Finally I will use <code>git commit</code> to commit it, I will be prompted to give this commit a commit message, where I said "Added recipe for nuts-n-bolts".  
 
 And NOW I have made it to the end of that one line of instructions.  I understand that the course (rightly so) is designed to hand-hold us  less and less as we go, but just in case you forgot all of the mini-steps that go into that particular instruction, there you go.  
+
+## #13 Cont.  Push your changes. 
+
+![image](https://user-images.githubusercontent.com/12129459/132953313-bccdb350-3260-4e3a-9956-feaa13b68425.png)
+
+If you have made changes to the GitHub repository more recently than you cloned the repo onto your local computer, 
+GitHub will recognize this and not allow you to push changes since you were not working from the most up to date version of the GitHub repo.  
+We haven't got to this yet (this will be covered starting in #15, where you will cause this error on purpose), but for now the way to get out of this bind is to type <code>git pull</code> to pull down any changes from the GitHub version to update the copy on your local computer.  Now your local version has the most up to date Git Hub commits, AND it also has your recent local changes (making a new recipe file).  Your local copy is still ahead of where your GitHub repo is (only your local copy has your new recipe).  So you can (and should) resume the instruction to <code>git push</code> your new changes to GitHub to make sure everything is in sync again. 
+
+<hr>
+
+
+
+
 
 
