@@ -2,7 +2,9 @@
 
 ## Lesson 4
 
-### #Warning: LF will be replaced by CRLF...
+<hr>
+
+## #Warning: LF will be replaced by CRLF...
 
 ![image](https://user-images.githubusercontent.com/12129459/132780869-73dc25b1-688c-4b52-9a64-80d9cc6eecc7.png)
 
@@ -18,15 +20,15 @@ All better now.
 
 <hr>
 
-### #5
+## #5 - "Post a link to the forums"
 
-When they say 'post a link to your github reflections' in the forums, ignore that. This is no longer an active course at Udacity, (i.e. if you search the Udacity course catalogue you will not find it), so there is no forum anymore.  There is a more modern class about Git, but it isn't as comprehensive.  I took the shorter, more modern one but found that the unlisted older version of the course to be much more informative.  By knowing how to find the course (having the url), we can still view the content and learn from it.  
+When they say 'post a link to your github reflections' in the forums, ignore that. This is no longer an active course at Udacity, (i.e. if you search the Udacity course catalogue you will not find it), so there is no forum anymore.  Udacity does has a more modern class about Git, but it wasn't as comprehensive (doesn't include GitHub), so I went with the old course that you can only get to if you happen to know <a href="https://classroom.udacity.com/courses/ud775" target="_blank">the URL</a>. 
 
-That might also answer some of your questions about why there are out-of-date things in this course.  Yes there are, but it is still the best resource (and free) for learning these concepts that I have stumbled accross.   
+That might also answer some of your questions about why there are out-of-date things in this course.  Yes there are, but this is still the best resource (and free) for learning about Git and GitHub that I have stumbled accross.   
 
 <hr>
 
-### #6 Adding a new file button has changed
+## #6 Adding a new file button has changed
 
 ![image](https://user-images.githubusercontent.com/12129459/132923875-8cc4a757-7e6a-4335-bf7c-79645ad7d3f0.png)
 
@@ -40,7 +42,7 @@ The option to create a new file is now found under a drop down menu labeled "**A
 
 <hr>
 
-### #12 Forking the Recipes Repository
+## #12 Forking the Recipes Repository
 
 
 ![image](https://user-images.githubusercontent.com/12129459/132950367-fabae6fd-b157-4801-8af9-c99540c15471.png)
@@ -61,3 +63,37 @@ This right hand side menu has changed and no longer shows the url for the reposi
 However, I think it is even easier to just copy the address from the address bar at the top of your web browser. 
 
 <hr>
+
+## #13 Push Changes to the Recipes Repository
+
+![image](https://user-images.githubusercontent.com/12129459/132951519-cd353c83-2bef-4008-8ac3-631c0d9b9a19.png)
+
+That one line of instructions above has *many* steps that you might have forgotten about if it has been a week since Lesson 3.  <br>
+
+Creating a new text file of a recipe.  <br>
+
+<code>code myRecipe.txt</code><br>
+
+![image](https://user-images.githubusercontent.com/12129459/132951613-27b09392-584d-4aa8-a664-f1d30b925529.png)
+
+Type in your recipe (real or fake), and save the changes to that text file.  <br>
+
+Now that you have made a substantial change in our repository, we will want to make a commit. 
+
+Before I make any commit, I use <code>git status</code> to see what changes I have made, just in case I made changes in the past that I forgot about. 
+
+![image](https://user-images.githubusercontent.com/12129459/132951662-cfc4ac2b-b386-4ed3-aa9c-a20ec93670bb.png)
+
+<hr>
+
+That looks fine, I will add my new recipe to the staging area with <code>git add</code>
+
+![image](https://user-images.githubusercontent.com/12129459/132951696-24f5785b-05f4-44df-bd8a-9d27074bcb0c.png)
+
+<hr>
+
+Finally I will use <code>git commit</code> to commit it, I will be prompted to give this commit a commit message, where I said "Added recipe for nuts-n-bolts".  
+
+And NOW I have made it to the end of that one line of instructions.  I understand that the course (rightly so) is designed to hand-hold us  less and less as we go, but just in case you forgot all of the mini-steps that go into that particular instruction, there you go.  
+
+
