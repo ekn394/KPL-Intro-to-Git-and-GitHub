@@ -153,8 +153,8 @@ Then if you go look at your recipes repo on GitHub, you SHOULD see that one of t
 
 <hr>
   
-## #18 Simulate Sarah's Changes
-  
+  <h2> #19 Updating Local Copies </h2>
+
 A lot of things where thrown at you in #19 and I think another visualization would be helpful. 
 
 <li>I followed the instructions and updated one of the spices in the chili recipe and committed it locally, but, as instructed, <em>have NOT</em> pushed that change to GitHub.  </li>
@@ -195,7 +195,7 @@ In a previous lesson we learned how to view a graph representation of the differ
   
   <code>git log --graph --oneline master origin</code>
   
-  This will show the **graph** (tree) structure, where each commit is only **oneline** for the branches **master** and **origin**. 
+  This will show the **graph** (tree) structure, where each commit is summarized into **oneline**, for each of the branches **master** and **origin**. 
   
 ![image](https://user-images.githubusercontent.com/12129459/132956502-0295b0d0-70d5-430b-a58a-21856b9e562e.png)
 
@@ -212,4 +212,53 @@ Then **HEAD** appears on the master branch. <br>
   ![image](https://user-images.githubusercontent.com/12129459/132957268-5417d781-3b20-46d9-9a65-c58e5811cc2b.png)
 
 <hr>
+  
+
+ Something else that we skipped over in Lesson 3, that now makes more sense is the 'origin/master' label on our tree diagrams. 
+  
+Just as an illustration, I'm going to cd my way back to the asteroids folder and then checkout the master branch 
+  
+  <code>cd ..</code> <br><br>
+  
+  <code>cd asteroids</code> <br><br>
+  
+  <code>git checkout master</code> <br><br>
+  
+
+  If we run <code>git status</code> here, we will see that message that tells us that the local master branch is ahead of the 'origin/master' (the last time we used GitHub on the master branch) by 7 commits.
+
+ ![image](https://user-images.githubusercontent.com/12129459/132960326-43819ee5-6a7a-46b2-880d-07294df9ded9.png)
+
+<hr>
+
+  Running <code>git log --graph --oneline</code> will show us the tree structure (according to the master branch). This does show the 7 commits since the origin/master was last updated.
+
+![image](https://user-images.githubusercontent.com/12129459/132960441-cd3344b6-e060-4734-817a-ecdb8edc64ab.png)
+
+<hr>
+  
+Note, that easy-mode is a separate branch from the master.  If we want to see a tree structure that includes it we could instead say <br>
+
+  <code>git log --graph --oneline easy-mode</code>
+  
+  This gives us a larger set of branches and commits.  
+
+![image](https://user-images.githubusercontent.com/12129459/132960636-c0053ef5-a868-41c7-8c03-25a10b36ad40.png)
+
+  I find it easier to draw them a slightly different way (by hand). 
+  
+  ![image](https://user-images.githubusercontent.com/12129459/132960866-2638dd14-b30a-42a7-83f3-09da01ed20b7.png)
+
+Where:<br>
+  <li>blue arrows represent changes on the 'coins' branch. </li>
+  <li>yellow arrows represent changes on the 'master' branch.</li>
+  <li>red arrow represent changes on the 'easy-mode' branch.</li>
+
+<br>  
+That was a large side note, but point of the story is that the 'origin/master' label indicates the last time that our local 'master' branch was synced to the "origin" master (a.k.a. the master branch on GitHub).  
+  
+The 'origin/coins' label indicates the last time that our "coins" branch was synced with its 'origin' (a.k.a the coins branch on Github). 
+
+<hr>
+
   
