@@ -150,3 +150,7 @@ Then if you go look at your GitHub repo for your recipes you SHOULD see that one
 ![image](https://user-images.githubusercontent.com/12129459/132954692-3111c1e6-8d88-4931-810c-504563537501.png)
 
 !!! Awesome, (a bot equivalent of) Sarah from Udacity made a commit to one of my GitHub repos!
+
+<hr>
+  
+
