@@ -181,8 +181,18 @@ If I switch to another branch, the origin branch... <br>
 ![image](https://user-images.githubusercontent.com/12129459/132956394-af9afece-416d-4b33-a748-77b774294549.png)
 
 <hr>
+  
+You don't actually have to checkout the branches to view their git logs. 
 
-In a previous lesson we learned how to view a graph representation of the commits. 
+  <code>git log master</code><br>
+  and<br>
+  <code>git log origin</code>
+  
+Will also show that they are different. <br>
+  
+<hr>
+  
+In a previous lesson we learned how to view a graph representation of the different branches. 
   
   <code>git log --graph --oneline master origin</code>
   
