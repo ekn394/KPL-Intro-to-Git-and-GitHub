@@ -43,7 +43,7 @@ You are told to try to use <code>git commit</code> which will launch SOME text e
 
 Depending on how you installed git, the default text editor is probably "Vim" showed above. Having to use this text editor is not recommended for beginners, or intermediate users.
 
-How the hell do you even get out of here you ask?  Well, it is as intuative as typing the following 5 instructions in a row. 
+How do you even get out of this Vim program you ask?  Well, it is as intuative as typing the following 5 instructions in a row. 
 
 You type these characters in order: 
 
