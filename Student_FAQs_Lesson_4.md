@@ -154,3 +154,51 @@ Then if you go look at your GitHub repo for your recipes you SHOULD see that one
 <hr>
   
 
+## #19 Updating Local Copies
+
+A lot of things where thrown at you in #19 and I think another visualization would be helpful. 
+
+<li>I followed the instructions and updated one of the spices in the chili recipe and committed it locally, but, as instructed, <em>have NOT</em> pushed that change to GitHub.  </li>
+
+<li>I ALSO followed the instructions to have a simulated Sarah Bot, remove cumin from the chili recipe.  </li>
+
+<li>I THEN followed the instructions to FETCH, not pull, FETCH the updates from GitHub.  This means that the 'origin/master' branch on my local computer has been updated with any new GitHub changes (removed cumin).  That 'origin/master' branch has not yet been merged with my local 'master' branch where the most recent change was me updating (in my case) salt to seasoning salt (the exact change isn't important).  </li>
+  
+If I use git log to see what the most recent change to the master branch (that I am on) is, I will see that the most recent update (to that branch) is me updating the spice instructions as per #16.  <br>
+
+![image](https://user-images.githubusercontent.com/12129459/132956335-4724856d-2ba7-43b6-833d-268c6c114356.png)<br>
+
+HOWEVER <br>
+  
+If I switch to another branch, the origin branch... <br>
+
+<code>git checkout origin</code><br>
+  
+  ...and run <code>git log</code><br>, I will see a different, most recent commit, from Sarah about removing cumin. <br>
+
+![image](https://user-images.githubusercontent.com/12129459/132956394-af9afece-416d-4b33-a748-77b774294549.png)
+
+<hr>
+
+In a previous lesson we learned how to view a graph representation of the commits. 
+  
+  <code>git log --graph --oneline master origin</code>
+  
+  This will show the **graph** (tree) structure, where each commit is only **oneline** for the branches **master** and **origin**. 
+  
+![image](https://user-images.githubusercontent.com/12129459/132956502-0295b0d0-70d5-430b-a58a-21856b9e562e.png)
+
+None of this is necessary for the assignment, but I think it is helpful to see that at the top of the commit tree, I have two different universes (branches) on my local computer.  
+
+If you are following along, don't stress out if **HEAD** is in a different spot for you.  **HEAD** just represents which branch you have checked out.  This represents the branch that new commits would be added to.  
+
+If I change the branch that I am on to master... <br>
+
+  <code>git checkout master</code><br>
+  
+Then **HEAD** appears on the master branch. <br> 
+
+  ![image](https://user-images.githubusercontent.com/12129459/132957268-5417d781-3b20-46d9-9a65-c58e5811cc2b.png)
+
+<hr>
+  
