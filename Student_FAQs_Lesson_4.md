@@ -145,7 +145,7 @@ That means you didn't include the url address to YOUR github recipes repository.
   
 <hr>
   
-Then if you go look at your GitHub repo for your recipes you SHOULD see that one of the instructors, has made an update to the **GitHub version** of your recipes repo.  
+Then if you go look at your recipes repo on GitHub, you SHOULD see that one of the instructors, has made an update to the **GitHub version** of your recipes repo.  
 
 ![image](https://user-images.githubusercontent.com/12129459/132954692-3111c1e6-8d88-4931-810c-504563537501.png)
 
