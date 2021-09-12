@@ -260,5 +260,45 @@ That was a large side note, but point of the story is that the 'origin/master' l
 The 'origin/coins' label indicates the last time that our "coins" branch was synced with its 'origin' (a.k.a the coins branch on Github). 
 
 <hr>
+  
+## #20 - Merging the changes
+  
+![image](https://user-images.githubusercontent.com/12129459/132974555-4fbda119-5259-4a2a-8c9e-5f119f080526.png)
+
+  At this point, master is different from origin/master. The one that is synched with GitHub (origin/master) contains the cumin subtraction, and the local master has seasoning salt substitution.  
+
+At one point both of these changes modify the same line from their mutual common ancestor commit.  Since it is changed in two different ways, this will cause a merge conflict.  
+  
+Attempting to merge them with <br>
+  
+  <code>git merge master origin/master</code><br>
+  
+  ![image](https://user-images.githubusercontent.com/12129459/132974654-87dac613-a795-4994-95e6-a44754b04185.png)
+
+  We see that there is a conflict in the file named chili-recipe.txt <br>
+  
+  Open it up with <code>code chili-recipe.txt</code>
+  
+  There will be three versions, the two new (and conflicting) versions, and an old version before either change.  Delete two of the three versions, including the lines that mark the separation of the three sections. Then save and quit that file.  
+  
+  You now have a modified file *chili-recipe.txt* so you will need to add it to the staging area to commit those changes. <br>
+
+  <code>git add chili-recipe.txt</code> <br>
+  
+  <code>git commit</code>
+  
+  Close the code editor when you are happy with the commit message (one will be supplied for you indicating a merge). 
+  "Merge remote-tracking branch 'origin/master'"
+  
+  <hr>
+  
+You can now push your up to date master branch to GitHub (origin), which will put the local and the GitHub versions in sync.  
+
+  <code>git push origin master</code>
+  
+  
+  
+
+  
 
   
