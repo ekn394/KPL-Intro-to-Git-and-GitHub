@@ -450,3 +450,11 @@ After doing some magic in #26, where bot Sarah updates your master branch in Git
   <code>git add cake-recipe.txt</code>
   
   <code>git commit</code>
+  
+  <code>git push origin different-oil</code>
+  
+ <hr>
+
+  ![image](https://user-images.githubusercontent.com/12129459/133160211-f019676c-97a3-4f89-8f83-c3c429b80f9e.png)
+  
+  Back at GitHub now, the "pull request" where I want to merge my different-oil branch into my master branch (on github).  THAT pull request has updated to reflect that newest change to the different oil branch! Even though the pull request to merge 'different-oil' into 'master' was made before that new update to different-oil.  GitHub knows that you are trying to merge those two things together and is looking at the most up to date versions it has of both of those branches. 
