@@ -423,5 +423,30 @@ After doing some magic in #26, where bot Sarah updates your master branch in Git
 
   <code>git pull origin master</code>
   
+  <hr>
   
+  Following the instructions, next we are supposed to checkout the different-oil branch and merge the new and improved master branch into it.  
+
+  <code>git checkout different-oil</code>
   
+  <code>git merge master different-oil</code>
+  
+  NOW we will get that same error message, but at least this time we can follow along with the videos, by getting the error at the right time. 
+  
+  The error tells us that the problem is in the cake-recipe.txt file.  So let's open that up and see what the trouble is. 
+  
+  <code>code cake-recipe.txt</code>
+  
+  <hr>
+  
+  ![image](https://user-images.githubusercontent.com/12129459/133132758-2eaa5ae0-4d4a-4b0b-adf6-6f7795d336da.png)
+
+  The problem is there are two versions of the oil line, and they are both updates from the original so Git doesn't know which one we want to keep when we merge them.  The answer is neither, we want a combination where we changed the word 'vegetable' into 'canola', and where we changed '1/2' into '3/4'.  So make one of conflicting lines say that.  Then delete all of the marker lines where Git indicates the problem.   
+  
+  Save, close the file.  
+  
+  Now you have changed a file in your repository so you will need to stage it before you can commit this change.  
+  
+  <code>git add cake-recipe.txt</code>
+  
+  <code>git commit</code>
