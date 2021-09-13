@@ -296,9 +296,89 @@ You can now push your up to date master branch to GitHub (origin), which will pu
 
   <code>git push origin master</code>
   
+## #23 - Making a Pull request
   
+  So much happens in this video that it is tempting to give up here.  But it is a series of easy steps.  
   
+First of all you will need to edit your cake-recipe.txt 
+  
+  <br><code>code cake-recipe.txt</code><br>
+  
+  Then after making and saving some change (vegetable oil to canola oil for example), enter the Git Bash commands as shown in the video. 
 
-  
+![image](https://user-images.githubusercontent.com/12129459/133110973-f912030b-1f4d-4809-bdc4-0c486141b19d.png)
 
+  To make it a bit easier to read, here are those instructions one at a time. <br>
+  
+  <code>git branch different-oil</code>  <em>This creates a new branch (a new alternate reality) </em>
+  
+<code>git checkout different-oil</code>  <em>This checks out that new branch (new commits will go on that branch ) </em>
+  
+<code>git add cake-recipe.txt</code>  <em>Add our updated cake-recipe to that new branch </em>
+  
+<code>git commit</code> <em>Freeze the state of this branch in case we ever want to get back to this point. </em>
+  
+<code>git push origin different-oil</code>  <em>Send this alternate branch up to GitHub (as an alternate branch)</em>
+
+<hr>
+ 
+Next head over to your recipes repository on GitHub. <br>
+  
+  By default GitHub will show you the 'master' branch as opposed to other experimental branches, but you can click the drop down menu to select a different branch.  
+
+ ![image](https://user-images.githubusercontent.com/12129459/133113193-c9f4e357-695f-44a8-83b2-9008baff07d4.png)
+
+  <hr>
+  
+  ![image](https://user-images.githubusercontent.com/12129459/133113374-a7046aa1-4ff3-42c1-90e2-e06b60203ef6.png)
+
+  From that drop down menu, you should see a checkmark beside the branch that is "checked out" on GitHub.  
+  
+  Select your alternate branch 'different-oil'.  As the video said, this is the GitHub (cloud) equivalent to running git checkout different-oil on your local machine.  
+
+  <hr>
+  
+  There should be a Pull requests button just above where you select the branches. 
+  
+  ![image](https://user-images.githubusercontent.com/12129459/133114241-0b25ab87-f357-4e18-9a56-65dac984486b.png)
+
+Click on that Pull request button. 
+  
+<hr> 
+
+![image](https://user-images.githubusercontent.com/12129459/133114461-b5db13b9-bdf4-4f7c-8359-616fae30c380.png)
+
+  This will bring you to a page where you can manage and see all of the pull requests regarding this repository.  
+There ... probably aren't any yet, but you can click the green button labeled "New pull request" to create one.  
+
+<hr>
+  
+![image](https://user-images.githubusercontent.com/12129459/133115390-3b88930d-f78a-4a62-9bae-d21bde9a2923.png)
+
+
+By default, when you are making a pull request, it ASSUMES that you want to submit your changes to the Main master branch OF THE ORIGINAL (by some guy named Larry!).  This is NOT what we want.  We want to submit our update to our own fork of recipes. 
+  
+  <hr>
+  
+  ![image](https://user-images.githubusercontent.com/12129459/133115786-05d330e1-9fb1-4060-8bc2-279b558c1b8c.png)
+
+  On the first drop down, about which fork you want to submit your changes too - I will select my own fork of recipes from the list of 20,000 people who have forked Larry's recipe repository.  20,000!  Wow, where did all those come from?  Well, we are not the first people going through this Udacity course. 20,000 people have made it far enough in this course to have successfully forked the recipe repository.  Anyways.  
+
+In the first drop down select your own fork. 
+yourName/recipes  it SHOULD be the 2nd item in the drop down list, after the original. 
+  
+<hr>
+  
+![image](https://user-images.githubusercontent.com/12129459/133117836-39973438-ab93-4cdc-941e-5ba6c4547f5b.png)
+
+  After changing that first drop down to be my fork of recipes.  The pull request thinks that I am trying to merge my master branch with my master branch, so it doesn't think there is anything to do.  
+
+On the second drop down menu, select your 'different-oil' branch. 
+
+  <hr>
+  
+  ![image](https://user-images.githubusercontent.com/12129459/133117085-4dc3557e-91d3-4c59-bc89-018deca9a184.png)
+
+  Now, this is more like it.  I can see the changes I am requesting be put into this repository.  (It HAPPENS to my repository anyways, but these are the steps you would take to suggest an update to someone elses repository.  (Ahhhhh THAT'S why we are making this change this way.  This is how multiple people could collaborate on a shared project, making change submissions (called "pull requests").
+  
   
