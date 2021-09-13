@@ -402,4 +402,26 @@ After you have your short explanation done, hit the green "Create pull requets" 
   
   Their video explanation has a mistake, that they address in text below the quiz.  But... I still feel like one of the answers is still wrong.  I am no expert though.  I feel like the staging area 'gets changed' whenever a commit is made, because the staging area goes from having items staged to not having items staged.  So I feel like that column SHOULD have a check box.  But the quiz doesn't think so.  I could be wrong.  In conclusion, don't stress out about the quiz too much.  
   
+ <h1> #27 - Change to the local master branch before pulling changes from GitHub</h1> 
+  
+After doing some magic in #26, where bot Sarah updates your master branch in GitHub to have 3/4 cup of oil instead of 1/2, 
+  You are asked to update your local master branch with a <code>git pull origin master</code> (pulling down the master branch code from GitHub)
+  
+  <h3>HOWEVER</h3>
+  
+ On your local machine you are probably still on the different-oil branch.  So you will FIRST need to checkout the master branch.  
+
+  <code>git checkout master</code>
+  
+  IF you forgot this step (as I did), and you tried to pull down the master branch from github, you will get a merge error (and not the one we are expecting a little later).  To cancel this mistaken merge in progress, <code>git merge --abort</code>
+  
+  Okay, now going to check out the proper branch on my local computer. 
+  
+  <code>git checkout master</code>
+  
+  and THEN pull down the master from GitHub (which Sarah bot has recently updated). 
+
+  <code>git pull origin master</code>
+  
+  
   
