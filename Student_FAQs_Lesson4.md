@@ -381,4 +381,25 @@ On the second drop down menu, select your 'different-oil' branch.
 
   Now, this is more like it.  I can see the changes I am requesting be put into this repository.  (It HAPPENS to my repository anyways, but these are the steps you would take to suggest an update to someone elses repository.  (Ahhhhh THAT'S why we are making this change this way.  This is how multiple people could collaborate on a shared project, making change submissions (called "pull requests").
   
+  <hr>
+  
+
+![image](https://user-images.githubusercontent.com/12129459/133119628-fa0229ab-dfe3-4b21-ae0d-7a84a487ba23.png)
+
+  After you click the green button to create a pull request, you are brought to another screen where (as is tradition) you are asked to write a brief message explaining the purpose of this change.   
+
+After you have your short explanation done, hit the green "Create pull requets" button and hope for the best. 
+
+<hr>
+  
+  Now when I look at my GitHub page for my recipes repository, I can see that there is one pull request.  I wonder who it's from?!
+  
+  ![image](https://user-images.githubusercontent.com/12129459/133120142-6ad703ce-a355-4c5e-b95b-efef2bbcee42.png)
+
+<hr> 
+  
+  <h1> The quiz at the end of #23, is bugged in a few ways.</h1> 
+  
+  Their video explanation has a mistake, that they address in text below the quiz.  But... I still feel like one of the answers is still wrong.  I am no expert though.  I feel like the staging area 'gets changed' whenever a commit is made, because the staging area goes from having items staged to not having items staged.  So I feel like that column SHOULD have a check box.  But the quiz doesn't think so.  I could be wrong.  In conclusion, don't stress out about the quiz too much.  
+  
   
