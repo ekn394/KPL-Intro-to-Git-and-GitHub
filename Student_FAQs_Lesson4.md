@@ -508,14 +508,5 @@ The new Git Bash window that pops up will have the proper privilages to make tha
   
 <hr>
   
-  <h1>#33 Continued - How to make an upstream remote</h1>
-  
-One the of the steps in the final Quiz for # 33 is to "add the original repository as a remote in your clone".  They use the word "origin" refers to the GitHub connection to your clone.  They use the word "upstream" to refer to the GitHub repository that you forked off of.  This connection would be used to keep your local master up to date to make merging easier in the future.  
-  
-You can setup your upstream remote with 
 
-  <code>git remote add upstream https://github.com/udacity/create-your-own-adventure</code>
-  
-  
 
-This was never
