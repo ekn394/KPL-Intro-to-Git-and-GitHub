@@ -2,6 +2,21 @@
 
 ## Lesson 3
 
+### User Name and User Email 
+
+At some point in this lesson you MAY run into a problem where Git needs a user.name and user.email to put a name to whoever is writing git commits.  It may detect that the way you logged in to your computer happens to have a default name and email and attached to it, and it may decide to use that. But it may have trouble during a commmit and ask for a user.name and user.email to attribute the changes being made to a person.  
+
+To set this up once so you never need to do it again.  
+
+<code>git config --global user.name "Evan Nordquist"</code>
+
+and then 
+
+<code>git config --global user.email "evan.nordquist@kpl.org"</code>
+
+
+If you wanted to make name and email credentials that were specific to the git repository you are working on, then leave out the <code>--global</code>
+
 ### #3
 
 Q: In number #3 ("Examining the New Repository") the instruction videos, and the quiz has the output saying 'Initial commit'. But that is not what I see when I follow the instructions to the letter. 
