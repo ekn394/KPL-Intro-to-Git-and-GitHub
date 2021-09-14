@@ -458,3 +458,64 @@ After doing some magic in #26, where bot Sarah updates your master branch in Git
   ![image](https://user-images.githubusercontent.com/12129459/133160211-f019676c-97a3-4f89-8f83-c3c429b80f9e.png)
   
   Back at GitHub now, the "pull request" where I want to merge my different-oil branch into my master branch (on github).  THAT pull request has updated to reflect that newest change to the different oil branch! Even though the pull request to merge 'different-oil' into 'master' was made before that new update to different-oil.  GitHub knows that you are trying to merge those two things together and is looking at the most up to date versions it has of both of those branches. 
+
+  <h1> # 28 Merging a Pull Request </h1>
+
+![image](https://user-images.githubusercontent.com/12129459/133334952-89abbb57-d773-44b7-9175-c3d33ebdaaaa.png)
+
+I can find the green "Merge pull request" button in the "Pull Request" section, in the "Conversation" tab.
+
+  <hr>
+  
+  ![image](https://user-images.githubusercontent.com/12129459/133335732-5f10be8e-381d-4f76-bdad-6a3f5f6d154e.png)
+  
+  After the merge is complete the merge buttons turned purple. And it gives me an option to delete the different-oils branch.  I will do go ahead and do that, since it's entire purpose was to offer up a GitHub pull request (of changes to be merged into the master branch).  Now that that task is done, we don't need this "different-oils" branch in GitHub anymore. Don't worry, there is always an undo button with Git and GitHub.  Plus it still exists on your local computer. If you don't want to delete the 'different-oils' branch on GitHub, that's fine too. But I want you to ask yourself, _why are you keeping it?_
+  
+  <h1> # 28 Updating your local master after you have finished your merge on GitHub</h1>
+  <h3>Spoiler alert - you need to checkout the master branch on your local machine</h3>
+  
+![image](https://user-images.githubusercontent.com/12129459/133337372-ca1ccbee-360f-4502-af18-1ba32f5b195c.png)
+
+  Using <code>git pull</code> from Git Bash now, you will get you a bunch of results printed out but it won't accomplish your goal IF you (like me) had your Git Bash on the different-oil branch.  The different-oil branch doesn't exist on GitHub (for me anyways), so there is nothing to pull down from the cloud (GitHub) to update the different-oil branch.  
+
+  <hr>
+ 
+  ![image](https://user-images.githubusercontent.com/12129459/133337749-b154e8a4-26d5-4101-96ec-1e3b00d1f92e.png)
+  
+  If you checkout the master branch...
+
+  <code>git checkout master</code>
+  
+  ...and then run <code>git pull</code> 
+
+  You will get the proper result, of an updated cake-recipe.txt 
+  
+<hr>
+  
+  <h1> #32 Longpaths true </h1>
+  
+  We are given the instruction to change a config setting by typing 
+  
+  <code>git config --system core.longpaths true</code>
+  
+  I would get an error message about not having sufficient privilages to make this action (on my work computer anyways).  
+
+  ![image](https://user-images.githubusercontent.com/12129459/133341469-6f739679-1723-4430-ba30-09697653317d.png)
+
+The solution is to run gitbash as administrator.  Hit the Windows key on your keyboard to initiate a search, type <code>git</code>, then right-click on Git Bash and select "Run as administrator".  
+
+The new Git Bash window that pops up will have the proper privilages to make that config change.  
+  
+<hr>
+  
+  <h1>#33 Continued - How to make an upstream remote</h1>
+  
+One the of the steps in the final Quiz for # 33 is to "add the original repository as a remote in your clone".  They use the word "origin" refers to the GitHub connection to your clone.  They use the word "upstream" to refer to the GitHub repository that you forked off of.  This connection would be used to keep your local master up to date to make merging easier in the future.  
+  
+You can setup your upstream remote with 
+
+  <code>git remote add upstream https://github.com/udacity/create-your-own-adventure</code>
+  
+  
+
+This was never
