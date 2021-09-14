@@ -2,7 +2,7 @@
 
 ## Lesson 3
 
-### User Name and User Email 
+### user.name and user.email 
 
 At some point in this lesson you MAY run into a problem where Git needs a user.name and user.email to put a name to whoever is writing git commits.  It may detect that the way you logged in to your computer happens to have a default name and email and attached to it, and it may decide to use that. But it may have trouble during a commmit and ask for a user.name and user.email to attribute the changes being made to a person.  
 
