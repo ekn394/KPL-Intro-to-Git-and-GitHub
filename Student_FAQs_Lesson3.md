@@ -2,20 +2,7 @@
 
 ## Lesson 3
 
-### user.name and user.email 
 
-At some point in this lesson you MAY run into a problem where Git needs a user.name and user.email to put a name to whoever is writing git commits.  It may detect that the way you logged in to your computer happens to have a default name and email and attached to it, and it may decide to use that. But it may have trouble during a commmit and ask for a user.name and user.email to attribute the changes being made to a person.  
-
-To set this up once so you never need to do it again.  
-
-<code>git config --global user.name "Evan Nordquist"</code>
-
-and then 
-
-<code>git config --global user.email "evan.nordquist@kpl.org"</code>
-
-
-If you wanted to make name and email credentials that were specific to the git repository you are working on, then leave out the <code>--global</code>
 
 ### #3
 
@@ -105,6 +92,24 @@ You just supply a message and save and quit.
 ![image](https://user-images.githubusercontent.com/12129459/132284197-163f164c-7052-44d6-8538-0d57bc224597.png)
 
 When you quit that text editor, and go back to your Git Bash, you will see that the git commit has occurred using your message. 
+
+<hr>
+
+
+### user.name and user.email 
+
+At some point in this lesson you MAY run into a problem where Git needs a user.name and user.email to put a name to whoever is writing git commits.  It may detect that the way you logged in to your computer happens to have a default name and email and attached to it, and it may decide to use that. But it may have trouble during a commmit and ask for a user.name and user.email to attribute the changes being made to a person.  
+
+To set this up once so you never need to do it again.  
+
+<code>git config --global user.name "Evan Nordquist"</code>
+
+and then 
+
+<code>git config --global user.email "evan.nordquist@kpl.org"</code>
+
+
+If you wanted to make name and email credentials that were specific to the git repository you are working on, then leave out the <code>--global</code>
 
 <hr>
 
