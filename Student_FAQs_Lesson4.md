@@ -318,7 +318,7 @@ First of all you will need to edit your cake-recipe.txt
   
 <code>git commit</code> <em>Commit (record) the state of this branch in case we ever want to get back to this exact point. </em>
   
-<code>git push origin different-oil</code>  <em>Send up your different-oil branch up to the 'origin' (to Github)</em>
+<code>git push origin different-oil</code>  <em>Send your different-oil branch up to the 'origin' (to Github)</em>
 
 <hr>
  
