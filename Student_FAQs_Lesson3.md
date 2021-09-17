@@ -2,7 +2,42 @@
 
 ## Lesson 3
 
+### General Suggestion 
 
+You can open up a Git Bash style Terminal from <em>within</em> Visual Studio Code.  That way you don't have to keep switching between your Git Bash program where you type your git commands and a code editor where you make your edits.  You can do both from the same spot!  This is totally optional, and never mentioned in the course, but I find it handy.
+
+Open Visual Studio Code. 
+
+Then on the top menu bar, there should be a drop down menu called "Terminal"  with the first option being "New Terminal"
+
+![image](https://user-images.githubusercontent.com/12129459/133833512-6bab910a-922b-4091-9698-bf9e732b6e6b.png)
+
+
+  <hr>
+  
+  
+  
+
+  
+![image](https://user-images.githubusercontent.com/12129459/133833020-a0270253-008b-4515-a008-b911c9eba453.png)
+
+  This will create a new section at the bottom of your screen that you can use for "command line" tasks.  
+
+  The downside is that by default it will open in "powershell" mode which we don't want.  
+  
+  <hr>
+  
+![image](https://user-images.githubusercontent.com/12129459/133833295-8b3c3a40-e09e-42d7-bdae-ca0c9535275d.png)
+
+  Click the down arrow to select a new <em>type</em> of terminal.  We want to select Git Bash since that is what we are familiar with at this point. 
+
+<hr>
+
+![image](https://user-images.githubusercontent.com/12129459/133833594-d7524595-a559-4b88-8d7b-1472c019770f.png)
+
+You can now do all of your git commands here if you want.  The only difference I have noticed so far is that the Git Bash simulator within Visual Studio gives you the ability to use CTRL-C to copy and CTRL-V to paste (both of those keyboard shortcuts where not available on the more formal "Git Bash" software we had been using). 
+
+<hr>
 
 ### #3
 
