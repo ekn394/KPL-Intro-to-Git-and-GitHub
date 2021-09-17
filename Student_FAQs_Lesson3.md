@@ -6,17 +6,12 @@
 
 You can open up a Git Bash style Terminal from <em>within</em> Visual Studio Code.  That way you don't have to keep switching between your Git Bash program where you type your git commands and a code editor where you make your edits.  You can do both from the same spot!  This is totally optional, and never mentioned in the course, but I find it handy.
 
-Open Visual Studio Code. 
-
-Then on the top menu bar, there should be a drop down menu called "Terminal"  with the first option being "New Terminal"
+To try this, first open Visual Studio Code. 
 
 ![image](https://user-images.githubusercontent.com/12129459/133833512-6bab910a-922b-4091-9698-bf9e732b6e6b.png)
 
-
+On the top menu bar, there should be a drop down menu called "Terminal".  Select the first option which should be "New Terminal"
   <hr>
-  
-  
-  
 
   
 ![image](https://user-images.githubusercontent.com/12129459/133833020-a0270253-008b-4515-a008-b911c9eba453.png)
