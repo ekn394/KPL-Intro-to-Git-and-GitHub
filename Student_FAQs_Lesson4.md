@@ -314,11 +314,11 @@ First of all you will need to edit your cake-recipe.txt
   
 <code>git checkout different-oil</code>  <em>This checks out that new branch (new commits will go on that branch ) </em>
   
-<code>git add cake-recipe.txt</code>  <em>Add our updated cake-recipe to that new branch </em>
+<code>git add cake-recipe.txt</code>  <em>Add our updated cake-recipe to the staging area. </em>
   
-<code>git commit</code> <em>Freeze the state of this branch in case we ever want to get back to this point. </em>
+<code>git commit</code> <em>Commit (record) the state of this branch in case we ever want to get back to this exact point. </em>
   
-<code>git push origin different-oil</code>  <em>Send this alternate branch up to GitHub (as an alternate branch)</em>
+<code>git push origin different-oil</code>  <em>Send up your different-oil branch up to the 'origin' (to Github)</em>
 
 <hr>
  
