@@ -64,7 +64,7 @@ However, I think it is even easier to just copy the address from the address bar
 
 <hr>
 
-## #13 Adding a new recipes to the repository
+## #13 Adding a new recipe to the repository
 
 ![image](https://user-images.githubusercontent.com/12129459/132951519-cd353c83-2bef-4008-8ac3-631c0d9b9a19.png)
 
