@@ -98,6 +98,7 @@ See how easy Vim is to use?  Yeah, it is a nigthmare.  Ok, if you wanted to open
 ![image](https://user-images.githubusercontent.com/12129459/132283814-90139e7e-9942-4534-ad9e-0627b72b1fa8.png)
 
 If you have Visual Studio Code installed, you can change your default code editor to that by entering the following git command: <br>
+**updated Sept 23, 2021 to the method that sets the default editor and now REMEMBERS that choice in the future. 
 
 <code>git config --global core.editor "code --wait"</code>
 
