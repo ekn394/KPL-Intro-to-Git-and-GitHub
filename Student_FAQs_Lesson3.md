@@ -30,7 +30,7 @@ On the top menu bar, there should be a drop down menu called "Terminal".  Select
 
 ![image](https://user-images.githubusercontent.com/12129459/133833594-d7524595-a559-4b88-8d7b-1472c019770f.png)
 
-You can now do all of your git commands here if you want.  The only difference I have noticed so far is that the Git Bash simulator within Visual Studio gives you the ability to use CTRL-C to copy and CTRL-V to paste (both of those keyboard shortcuts where not available on the more formal "Git Bash" software we had been using). 
+You can now do all of your git commands here if you want.  The only difference I have noticed so far is that the Git Bash simulator within Visual Studio gives you the ability to use CTRL-C to copy and CTRL-V to paste (neither of those keyboard shortcuts were available on the more formal "Git Bash" software we had been using up to this point). 
 
 <hr>
 
